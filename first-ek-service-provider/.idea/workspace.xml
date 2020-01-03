@@ -21,9 +21,15 @@
   <component name="ProjectId" id="1VpSh0qHYY1O4ILJ2efWdbzXIWS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first-ek-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first-cloud-server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,7 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577948659088</updated>
-      <workItem from="1577948661847" duration="1579000" />
+      <workItem from="1577948661847" duration="6541000" />
+      <workItem from="1578042127703" duration="21000" />
     </task>
     <servers />
   </component>
@@ -79,7 +86,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

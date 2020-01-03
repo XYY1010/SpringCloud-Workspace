@@ -29,6 +29,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first-cloud-provider" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -45,8 +46,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="FirstServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.FirstServer">
+    <configuration name="SecondServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.crazyit.cloud.SecondServer" />
+      <module name="first-cloud-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.crazyit.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="first-cloud-server" />
       <extension name="coverage">
         <pattern>
@@ -55,13 +69,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.crazyit.cloud.FirstServer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.SecondServer" />
+      <item itemvalue="Spring Boot.FirstServer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.FirstServer" />
+        <item itemvalue="Application.SecondServer" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578013497308</updated>
-      <workItem from="1578013501575" duration="9219000" />
+      <workItem from="1578013501575" duration="12272000" />
+      <workItem from="1578042148221" duration="1422000" />
     </task>
     <servers />
   </component>
@@ -87,7 +108,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

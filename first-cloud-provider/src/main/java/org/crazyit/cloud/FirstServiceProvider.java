@@ -18,6 +18,6 @@ public class FirstServiceProvider {
         Scanner scanner = new Scanner(System.in);
         String port = scanner.nextLine();
         new SpringApplicationBuilder(FirstServiceProvider.class).properties(
-                "service.port=" + port).run(args);
+                "server.port=" + port).run(args);
     }
 }
