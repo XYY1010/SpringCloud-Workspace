@@ -1,0 +1,35 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: first-cloud-server
+  profiles: slave1
+  jmx:
+    default-domain: slave1
+eureka:
+  instance:
+    hostname: slave1
+  client:
+    service-url:
+      default-zone: http://slave2:8762/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+
+---
+
+server:
+  port: 8762
+spring:
+  application:
+    name: first-cloud-server
+  profiles: slave2
+  jmx:
+    default-domain: slave2
+eureka:
+  instance:
+    hostname: slave2
+  client:
+    service-url:
+      default-zone: http://slave1:8761/eureka/
+    register-with-eureka: false
+    fetch-registry: false
